@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OEP-1-rescue)(type Legacy)(uri ${KIPRJMOD}/OEP-1-rescue.lib)(options "")(descr ""))
+)
