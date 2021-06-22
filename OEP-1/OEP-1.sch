@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:OEP-1-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -127,28 +127,20 @@ $EndComp
 $Comp
 L OEP-1-rescue:Резистор_0,125Вт-elements R6
 U 1 1 60BDC9B4
-P 6825 5050
-F 0 "R6" H 6825 4900 60  0000 C CNN
-F 1 "Резистор_0,125Вт" H 6825 4900 60  0001 C CNN
-F 2 "MOTOR_RLC:Резистор_SMD_IEC_0805_0,125_Вт" H 6825 5050 60  0001 C CNN
-F 3 "" H 6825 5050 60  0001 C CNN
-F 4 "100 Ом" H 6825 5200 50  0000 C CNN "Номинал"
-F 5 "R101" H 6825 5050 50  0001 C CNN "УГО"
-	1    6825 5050
-	-1   0    0    1   
+P 7375 5425
+F 0 "R6" V 7300 5600 60  0000 C CNN
+F 1 "Резистор_0,125Вт" H 7375 5275 60  0001 C CNN
+F 2 "MOTOR_RLC:Резистор_SMD_IEC_0805_0,125_Вт" H 7375 5425 60  0001 C CNN
+F 3 "" H 7375 5425 60  0001 C CNN
+F 4 "100 Ом" V 7425 5675 50  0000 C CNN "Номинал"
+F 5 "R101" H 7375 5425 50  0001 C CNN "УГО"
+	1    7375 5425
+	0    1    1    0   
 $EndComp
+Connection ~ 7375 5000
 Wire Wire Line
-	8625 5050 8375 5050
-Wire Wire Line
-	7125 5050 7375 5050
-Wire Wire Line
-	7375 3600 7375 5050
-Connection ~ 7375 5050
-Wire Wire Line
-	7375 5050 7875 5050
-Wire Wire Line
-	8375 3600 8375 5050
-Connection ~ 8375 5050
+	7375 5000 7875 5000
+Connection ~ 8375 5000
 $Comp
 L OEP-1-rescue:Резистор_0,125Вт-elements R5
 U 1 1 60BE5AEC
@@ -254,8 +246,6 @@ F 5 "R101" H 6125 2800 50  0001 C CNN "УГО"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6125 5050 6525 5050
-Wire Wire Line
 	9000 2250 9625 2250
 $Comp
 L OEP-1-rescue:Резистор_0,125Вт-elements R10
@@ -274,50 +264,7 @@ Wire Wire Line
 	9625 2250 9625 2500
 Connection ~ 9000 2250
 Wire Wire Line
-	9225 5050 9625 5050
-$Comp
-L OEP-1-rescue:ОУ_LMx58-elements DA1
-U 1 1 60CAE671
-P 7250 5750
-F 0 "DA1" H 7875 6037 60  0000 C CNN
-F 1 "ОУ_LMx58" H 7875 5931 60  0000 C CNN
-F 2 "N_DD:SO-8" H 2350 8650 60  0001 C CNN
-F 3 "" H 2350 8650 60  0001 C CNN
-	1    7250 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7250 5750 7000 5750
-Wire Wire Line
-	7000 5750 7000 6050
-Wire Wire Line
-	7000 6050 7250 6050
-Wire Wire Line
-	8500 6050 8750 6050
-Wire Wire Line
-	8750 6050 8750 6350
-Wire Wire Line
-	8750 6350 8500 6350
-Wire Wire Line
-	8500 5750 8750 5750
-Wire Wire Line
-	7250 6650 7000 6650
-Text Label 8750 5750 2    50   ~ 0
-5V
-Text Label 7000 6650 0    50   ~ 0
-GND
-Wire Wire Line
-	10500 6650 10500 5050
-Wire Wire Line
 	10500 5050 11000 5050
-Wire Wire Line
-	5250 6350 5250 5050
-Wire Wire Line
-	7000 5750 6125 5750
-Connection ~ 7000 5750
-Wire Wire Line
-	8750 6050 9625 6050
-Connection ~ 8750 6050
 Connection ~ 6750 4500
 Wire Wire Line
 	9000 4500 9625 4500
@@ -327,19 +274,11 @@ Wire Wire Line
 Wire Wire Line
 	7875 4500 9000 4500
 Wire Wire Line
-	8375 5050 8000 5050
+	8375 5000 8000 5000
 Wire Wire Line
 	7750 4625 7750 4500
 Wire Wire Line
 	8000 4625 7750 4625
-Wire Wire Line
-	8000 5050 8000 4625
-Wire Wire Line
-	7875 5050 7875 4500
-Wire Wire Line
-	9625 5050 9625 6050
-Wire Wire Line
-	6125 5050 6125 5750
 Wire Wire Line
 	9625 3100 9625 4500
 Connection ~ 9625 4500
@@ -355,26 +294,26 @@ Wire Wire Line
 $Comp
 L OEP-1-rescue:Резистор_0,125Вт-elements R7
 U 1 1 60BDBABF
-P 8925 5050
-F 0 "R7" H 8925 4900 60  0000 C CNN
-F 1 "Резистор_0,125Вт" H 8925 4900 60  0001 C CNN
-F 2 "MOTOR_RLC:Резистор_SMD_IEC_0805_0,125_Вт" H 8925 5050 60  0001 C CNN
-F 3 "" H 8925 5050 60  0001 C CNN
-F 4 "100 Ом" H 8925 5200 50  0000 C CNN "Номинал"
-F 5 "R101" H 8925 5050 50  0001 C CNN "УГО"
-	1    8925 5050
-	-1   0    0    1   
+P 8375 5425
+F 0 "R7" V 8450 5250 60  0000 C CNN
+F 1 "Резистор_0,125Вт" H 8375 5275 60  0001 C CNN
+F 2 "MOTOR_RLC:Резистор_SMD_IEC_0805_0,125_Вт" H 8375 5425 60  0001 C CNN
+F 3 "" H 8375 5425 60  0001 C CNN
+F 4 "100 Ом" V 8325 5175 50  0000 C CNN "Номинал"
+F 5 "R101" H 8375 5425 50  0001 C CNN "УГО"
+	1    8375 5425
+	0    -1   -1   0   
 $EndComp
 $Comp
-L MOTOR_2020_components:Микросхема_интегральная_КФ1158ЕН501А G1
+L OEP-1-rescue:Микросхема_интегральная_КФ1158ЕН501А-MOTOR_2020_components G1
 U 1 1 60CF8355
-P 7500 7500
-F 0 "G1" H 8075 7681 60  0000 C CNN
-F 1 "Микросхема_интегральная_КФ1158ЕН501А" H 8100 7150 60  0001 C CNN
-F 2 "MOTOR_G:TO_252___KF1158EN3_301A" H 8125 7050 60  0001 C CNN
-F 3 "${MOTOR_2020_LIB}\\documentation\\1158en.pdf" H 7600 7500 60  0001 C CNN
-F 4 "АДБК.431420.102-01 ТУ" H 8100 6950 50  0001 C CNN "TY"
-	1    7500 7500
+P 10750 8000
+F 0 "G1" H 11325 8181 60  0000 C CNN
+F 1 "Микросхема_интегральная_КФ1158ЕН501А" H 11350 7650 60  0001 C CNN
+F 2 "MOTOR_G:TO_252___KF1158EN3_301A" H 11375 7550 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\1158en.pdf" H 10850 8000 60  0001 C CNN
+F 4 "АДБК.431420.102-01 ТУ" H 11350 7450 50  0001 C CNN "TY"
+	1    10750 8000
 	1    0    0    -1  
 $EndComp
 Text Label 2000 2700 2    50   ~ 0
@@ -481,163 +420,153 @@ Wire Wire Line
 	12500 4700 13750 4700
 Wire Wire Line
 	12500 4850 13750 4850
-Text Label 7000 7500 0    50   ~ 0
+Text Label 10250 8000 0    50   ~ 0
 PWR
-Text Label 7000 8000 0    50   ~ 0
+Text Label 10250 8500 0    50   ~ 0
 GND
-Text Label 9250 7500 2    50   ~ 0
+Text Label 12500 8000 2    50   ~ 0
 5V
 Wire Wire Line
-	7375 8000 7375 7700
+	10625 8500 10625 8200
 Wire Wire Line
-	7375 7700 7500 7700
-Connection ~ 7375 8000
+	10625 8200 10750 8200
+Connection ~ 10625 8500
 Wire Wire Line
-	7375 8000 9000 8000
+	10625 8500 12250 8500
 $Comp
-L MOTOR_2020_components:Конденсатор_К53-56А-32В-22_мкФ+-10проц. C2
+L OEP-1-rescue:Конденсатор_К53-56А-32В-22_мкФ+-10проц.-MOTOR_2020_components C2
 U 1 1 60BD49D8
-P 9000 7675
-F 0 "C2" V 8963 7803 60  0000 L CNN
-F 1 "Конденсатор_К53-56А-32В-22_мкФ+-10проц." H 8950 7425 60  0001 C CNN
-F 2 "MOTOR_RLC:Конденсатор_тантал_SMD_m7343" H 8900 7525 60  0001 C CNN
-F 3 "${MOTOR_2020_LIB}\\documentation\\К53-56А_СП.pdf" H 9000 7675 60  0001 C CNN
-F 4 "m7343" H 9025 7200 50  0001 C CNN "Типоразмер"
-F 5 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 9000 7350 50  0001 C CNN "LINK"
-F 6 "АЖЯР.673546.001 ТУ" H 9000 7275 50  0001 C CNN "TY"
-F 7 "22 мкФ" V 9061 7803 50  0000 L CNN "INFO"
-	1    9000 7675
+P 12250 8175
+F 0 "C2" V 12213 8303 60  0000 L CNN
+F 1 "Конденсатор_К53-56А-32В-22_мкФ+-10проц." H 12200 7925 60  0001 C CNN
+F 2 "MOTOR_RLC:Конденсатор_тантал_SMD_m7343" H 12150 8025 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\К53-56А_СП.pdf" H 12250 8175 60  0001 C CNN
+F 4 "m7343" H 12275 7700 50  0001 C CNN "Типоразмер"
+F 5 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 12250 7850 50  0001 C CNN "LINK"
+F 6 "АЖЯР.673546.001 ТУ" H 12250 7775 50  0001 C CNN "TY"
+F 7 "22 мкФ" V 12311 8303 50  0000 L CNN "INFO"
+	1    12250 8175
 	0    1    1    0   
 $EndComp
 $Comp
-L MOTOR_2020_components:Конденсатор_К10-83-25В-0,1_мкФ+-20проц. C3
+L OEP-1-rescue:Конденсатор_К10-83-25В-0,1_мкФ+-20проц.-MOTOR_2020_components C3
 U 1 1 60BD619E
-P 9500 7675
-F 0 "C3" V 9480 7763 60  0000 L CNN
-F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 9450 7425 60  0001 C CNN
-F 2 "MOTOR_RLC:Конденсатор_SMD_IEC_0805" H 9400 7525 60  0001 C CNN
-F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 9500 7675 60  0001 C CNN
-F 4 "0805" H 9500 7975 50  0001 C CNN "Типоразмер"
-F 5 "АЖЯР.673511.008 ТУ" H 9475 8075 50  0001 C CNN "TY"
-F 6 "0,1 мкФ" V 9578 7763 50  0000 L CNN "INFO"
-F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 9425 7325 50  0001 C CNN "LINK"
-	1    9500 7675
+P 12750 8175
+F 0 "C3" V 12730 8263 60  0000 L CNN
+F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 12700 7925 60  0001 C CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD_IEC_0805" H 12650 8025 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 12750 8175 60  0001 C CNN
+F 4 "0805" H 12750 8475 50  0001 C CNN "Типоразмер"
+F 5 "АЖЯР.673511.008 ТУ" H 12725 8575 50  0001 C CNN "TY"
+F 6 "0,1 мкФ" V 12828 8263 50  0000 L CNN "INFO"
+F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 12675 7825 50  0001 C CNN "LINK"
+	1    12750 8175
 	0    1    1    0   
 $EndComp
 $Comp
-L MOTOR_2020_components:Конденсатор_К10-83-25В-0,1_мкФ+-20проц. C4
+L OEP-1-rescue:Конденсатор_К10-83-25В-0,1_мкФ+-20проц.-MOTOR_2020_components C4
 U 1 1 60BD90C8
-P 10000 7675
-F 0 "C4" V 9980 7763 60  0000 L CNN
-F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 9950 7425 60  0001 C CNN
-F 2 "MOTOR_RLC:Конденсатор_SMD_IEC_0805" H 9900 7525 60  0001 C CNN
-F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 10000 7675 60  0001 C CNN
-F 4 "0805" H 10000 7975 50  0001 C CNN "Типоразмер"
-F 5 "АЖЯР.673511.008 ТУ" H 9975 8075 50  0001 C CNN "TY"
-F 6 "0,1 мкФ" V 10078 7763 50  0000 L CNN "INFO"
-F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 9925 7325 50  0001 C CNN "LINK"
-	1    10000 7675
+P 13250 8175
+F 0 "C4" V 13230 8263 60  0000 L CNN
+F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 13200 7925 60  0001 C CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD_IEC_0805" H 13150 8025 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 13250 8175 60  0001 C CNN
+F 4 "0805" H 13250 8475 50  0001 C CNN "Типоразмер"
+F 5 "АЖЯР.673511.008 ТУ" H 13225 8575 50  0001 C CNN "TY"
+F 6 "0,1 мкФ" V 13328 8263 50  0000 L CNN "INFO"
+F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 13175 7825 50  0001 C CNN "LINK"
+	1    13250 8175
 	0    1    1    0   
 $EndComp
 $Comp
-L MOTOR_2020_components:Конденсатор_К10-83-25В-0,1_мкФ+-20проц. C5
+L OEP-1-rescue:Конденсатор_К10-83-25В-0,1_мкФ+-20проц.-MOTOR_2020_components C5
 U 1 1 60BD94F8
-P 10500 7675
-F 0 "C5" V 10480 7763 60  0000 L CNN
-F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 10450 7425 60  0001 C CNN
-F 2 "MOTOR_RLC:Конденсатор_SMD_IEC_0805" H 10400 7525 60  0001 C CNN
-F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 10500 7675 60  0001 C CNN
-F 4 "0805" H 10500 7975 50  0001 C CNN "Типоразмер"
-F 5 "АЖЯР.673511.008 ТУ" H 10475 8075 50  0001 C CNN "TY"
-F 6 "0,1 мкФ" V 10578 7763 50  0000 L CNN "INFO"
-F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 10425 7325 50  0001 C CNN "LINK"
-	1    10500 7675
+P 8875 5925
+F 0 "C5" V 8800 5725 60  0000 L CNN
+F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 8825 5675 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_IEC_0805" H 8775 5775 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 8875 5925 60  0001 C CNN
+F 4 "0805" H 8875 6225 50  0001 C CNN "Типоразмер"
+F 5 "АЖЯР.673511.008 ТУ" H 8850 6325 50  0001 C CNN "TY"
+F 6 "0,1 мкФ" V 9025 5600 50  0000 L CNN "INFO"
+F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 8800 5575 50  0001 C CNN "LINK"
+	1    8875 5925
 	0    1    1    0   
 $EndComp
 $Comp
-L MOTOR_2020_components:Конденсатор_К10-83-25В-0,1_мкФ+-20проц. C6
+L OEP-1-rescue:Конденсатор_К10-83-25В-0,1_мкФ+-20проц.-MOTOR_2020_components C6
 U 1 1 60BD9A3F
-P 11000 7675
-F 0 "C6" V 10980 7763 60  0000 L CNN
-F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 10950 7425 60  0001 C CNN
-F 2 "MOTOR_RLC:Конденсатор_SMD_IEC_0805" H 10900 7525 60  0001 C CNN
-F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 11000 7675 60  0001 C CNN
-F 4 "0805" H 11000 7975 50  0001 C CNN "Типоразмер"
-F 5 "АЖЯР.673511.008 ТУ" H 10975 8075 50  0001 C CNN "TY"
-F 6 "0,1 мкФ" V 11078 7763 50  0000 L CNN "INFO"
-F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 10925 7325 50  0001 C CNN "LINK"
-	1    11000 7675
+P 13750 8175
+F 0 "C6" V 13730 8263 60  0000 L CNN
+F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 13700 7925 60  0001 C CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD_IEC_0805" H 13650 8025 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 13750 8175 60  0001 C CNN
+F 4 "0805" H 13750 8475 50  0001 C CNN "Типоразмер"
+F 5 "АЖЯР.673511.008 ТУ" H 13725 8575 50  0001 C CNN "TY"
+F 6 "0,1 мкФ" V 13828 8263 50  0000 L CNN "INFO"
+F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 13675 7825 50  0001 C CNN "LINK"
+	1    13750 8175
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11000 7500 11000 7625
+	11900 8000 12250 8000
 Wire Wire Line
-	8650 7500 9000 7500
+	13750 8125 13750 8000
 Wire Wire Line
-	10500 7625 10500 7500
-Connection ~ 10500 7500
+	13250 8125 13250 8000
+Connection ~ 13250 8000
 Wire Wire Line
-	10500 7500 11000 7500
+	13250 8000 13750 8000
 Wire Wire Line
-	10000 7625 10000 7500
-Connection ~ 10000 7500
+	12750 8125 12750 8000
+Connection ~ 12750 8000
 Wire Wire Line
-	10000 7500 10500 7500
+	12750 8000 13250 8000
 Wire Wire Line
-	9500 7625 9500 7500
-Connection ~ 9500 7500
+	12250 8125 12250 8000
+Connection ~ 12250 8000
 Wire Wire Line
-	9500 7500 10000 7500
+	12250 8000 12750 8000
 Wire Wire Line
-	9000 7625 9000 7500
-Connection ~ 9000 7500
+	12250 8275 12250 8500
+Connection ~ 12250 8500
 Wire Wire Line
-	9000 7500 9500 7500
+	12250 8500 12750 8500
 Wire Wire Line
-	9000 7775 9000 8000
-Connection ~ 9000 8000
+	12750 8275 12750 8500
 Wire Wire Line
-	9000 8000 9500 8000
+	13250 8275 13250 8500
 Wire Wire Line
-	9500 7775 9500 8000
+	13250 8500 12750 8500
+Connection ~ 12750 8500
 Wire Wire Line
-	10000 7775 10000 8000
+	13750 8275 13750 8500
 Wire Wire Line
-	10000 8000 9500 8000
-Connection ~ 9500 8000
-Wire Wire Line
-	10500 7775 10500 8000
-Wire Wire Line
-	10500 8000 10000 8000
-Connection ~ 10000 8000
-Wire Wire Line
-	11000 7775 11000 8000
-Wire Wire Line
-	11000 8000 10500 8000
-Connection ~ 10500 8000
+	13750 8500 13250 8500
+Connection ~ 13250 8500
 $Comp
-L MOTOR_2020_components:Конденсатор_К10-83-25В-0,1_мкФ+-20проц. C1
+L OEP-1-rescue:Конденсатор_К10-83-25В-0,1_мкФ+-20проц.-MOTOR_2020_components C1
 U 1 1 60C0209A
-P 6750 7675
-F 0 "C1" V 6730 7763 60  0000 L CNN
-F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 6700 7425 60  0001 C CNN
-F 2 "MOTOR_RLC:Конденсатор_SMD_IEC_0805" H 6650 7525 60  0001 C CNN
-F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 6750 7675 60  0001 C CNN
-F 4 "0805" H 6750 7975 50  0001 C CNN "Типоразмер"
-F 5 "АЖЯР.673511.008 ТУ" H 6725 8075 50  0001 C CNN "TY"
-F 6 "0,1 мкФ" V 6828 7763 50  0000 L CNN "INFO"
-F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 6675 7325 50  0001 C CNN "LINK"
-	1    6750 7675
+P 10000 8175
+F 0 "C1" V 9980 8263 60  0000 L CNN
+F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 9950 7925 60  0001 C CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD_IEC_0805" H 9900 8025 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 10000 8175 60  0001 C CNN
+F 4 "0805" H 10000 8475 50  0001 C CNN "Типоразмер"
+F 5 "АЖЯР.673511.008 ТУ" H 9975 8575 50  0001 C CNN "TY"
+F 6 "0,1 мкФ" V 10078 8263 50  0000 L CNN "INFO"
+F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 9925 7825 50  0001 C CNN "LINK"
+	1    10000 8175
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6750 7500 6750 7625
+	10000 8000 10000 8125
 Wire Wire Line
-	6750 7500 7500 7500
+	10000 8000 10750 8000
 Wire Wire Line
-	6750 7775 6750 8000
+	10000 8275 10000 8500
 Wire Wire Line
-	6750 8000 7375 8000
+	10000 8500 10625 8500
 Text Label 2750 2700 2    50   ~ 0
 GND
 Text Label 3975 2700 2    50   ~ 0
@@ -649,7 +578,7 @@ Wire Wire Line
 Wire Wire Line
 	3475 2700 3975 2700
 $Comp
-L MOTOR_2020_components:Контрольная_точка_сопряжения X3
+L OEP-1-rescue:Контрольная_точка_сопряжения-MOTOR_2020_components X3
 U 1 1 60C2F7EE
 P 2275 2700
 F 0 "X3" H 2275 2833 50  0000 C CNN
@@ -667,7 +596,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 2700 2125 2700
 $Comp
-L MOTOR_2020_components:Крепежное_отверстие_М3 X5
+L OEP-1-rescue:Крепежное_отверстие_М3-MOTOR_2020_components X5
 U 1 1 60C508C2
 P 1750 1750
 F 0 "X5" H 1675 1875 50  0001 C CNN
@@ -679,7 +608,7 @@ F 4 "PCB_element" H 1750 1550 50  0001 C CNN "INFO"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOTOR_2020_components:Крепежное_отверстие_М3 X7
+L OEP-1-rescue:Крепежное_отверстие_М3-MOTOR_2020_components X7
 U 1 1 60C51048
 P 2000 1750
 F 0 "X7" H 1925 1875 50  0001 C CNN
@@ -691,7 +620,7 @@ F 4 "PCB_element" H 2000 1550 50  0001 C CNN "INFO"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOTOR_2020_components:Крепежное_отверстие_М3 X4
+L OEP-1-rescue:Крепежное_отверстие_М3-MOTOR_2020_components X4
 U 1 1 60C55C1B
 P 1750 1500
 F 0 "X4" H 1675 1625 50  0001 C CNN
@@ -703,7 +632,7 @@ F 4 "PCB_element" H 1750 1300 50  0001 C CNN "INFO"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOTOR_2020_components:Крепежное_отверстие_М3 X6
+L OEP-1-rescue:Крепежное_отверстие_М3-MOTOR_2020_components X6
 U 1 1 60C55C26
 P 2000 1500
 F 0 "X6" H 1925 1625 50  0001 C CNN
@@ -720,8 +649,6 @@ Connection ~ 1625 3100
 Wire Wire Line
 	4000 3100 3625 3100
 Connection ~ 3625 3100
-Wire Wire Line
-	8500 6650 10500 6650
 $Comp
 L OEP-1-rescue:Резистор_0,125Вт-elements R2
 U 1 1 60BD70DF
@@ -742,8 +669,6 @@ Wire Wire Line
 Connection ~ 6125 2250
 Wire Wire Line
 	6125 2250 6125 2500
-Wire Wire Line
-	5250 6350 7250 6350
 Wire Wire Line
 	4750 5050 5250 5050
 Wire Wire Line
@@ -770,4 +695,187 @@ Connection ~ 9625 2250
 Wire Wire Line
 	10500 3100 10500 5050
 Connection ~ 10500 5050
+$Comp
+L elements_2020:Транзистор_2Т3130А9 VT3
+U 1 1 60D298FC
+P 6150 6125
+F 0 "VT3" H 6550 6350 39  0000 L CNN
+F 1 "Транзистор_2Т3130А9" H 6450 5600 39  0001 C CNN
+F 2 "N_VD_HL:Корпус_КТ-46" H 6475 5525 39  0001 C CNN
+F 3 "" H 6150 6125 39  0001 C CNN
+F 4 "аА0.339.569ТУ" H 6475 5450 39  0001 C CNN "TY"
+	1    6150 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements_2020:Транзистор_2Т3129Г9 VT4
+U 1 1 60D2B369
+P 6150 6875
+F 0 "VT4" H 6550 6650 39  0000 L CNN
+F 1 "Транзистор_2Т3129Г9" H 6450 6350 39  0001 C CNN
+F 2 "N_VD_HL:Корпус_КТ-46" H 6475 6275 39  0001 C CNN
+F 3 "" H 6150 6875 39  0001 C CNN
+F 4 "аА0.339.569ТУ" H 6475 6200 39  0001 C CNN "TY"
+	1    6150 6875
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6500 6500 6500 6575
+Wire Wire Line
+	6500 6425 6500 6500
+Connection ~ 6500 6500
+Text Label 6750 7375 2    50   ~ 0
+GND
+Wire Wire Line
+	6500 7175 6500 7375
+Text Label 6750 5625 2    50   ~ 0
+5V
+Wire Wire Line
+	6500 5625 6500 5825
+$Comp
+L OEP-1-rescue:Конденсатор_К10-83-25В-0,1_мкФ+-20проц.-MOTOR_2020_components C7
+U 1 1 60D60CDA
+P 6875 5925
+F 0 "C7" V 6800 5975 60  0000 L CNN
+F 1 "Конденсатор_К10-83-25В-0,1_мкФ+-20проц." H 6825 5675 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_IEC_0805" H 6775 5775 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\К10-83_СП.pdf" H 6875 5925 60  0001 C CNN
+F 4 "0805" H 6875 6225 50  0001 C CNN "Типоразмер"
+F 5 "АЖЯР.673511.008 ТУ" H 6850 6325 50  0001 C CNN "TY"
+F 6 "0,1 мкФ" V 7000 5975 50  0000 L CNN "INFO"
+F 7 "АО \"НИИ \"Гириконд\", г. Санкт Петербург" H 6800 5575 50  0001 C CNN "LINK"
+	1    6875 5925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 5625 6875 5625
+Wire Wire Line
+	6500 7375 6875 7375
+$Comp
+L OEP-1-rescue:Резистор_0,125Вт-elements R15
+U 1 1 60D75E73
+P 5675 6125
+F 0 "R15" H 5625 6000 60  0000 L CNN
+F 1 "Резистор_0,125Вт" H 5675 5975 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_IEC_0805_0,125_Вт" H 5675 6125 60  0001 C CNN
+F 3 "" H 5675 6125 60  0001 C CNN
+F 4 "4,7 кОм" H 5525 6275 50  0000 L CNN "Номинал"
+F 5 "R101" H 5675 6125 50  0001 C CNN "УГО"
+	1    5675 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6875 5875 6875 5625
+Wire Wire Line
+	6875 6025 6875 7375
+Wire Wire Line
+	7375 3600 7375 5000
+Wire Wire Line
+	7875 5000 7875 4500
+Wire Wire Line
+	7375 5000 7375 5125
+Wire Wire Line
+	8000 5000 8000 4625
+Wire Wire Line
+	8375 3600 8375 5000
+Wire Wire Line
+	5375 6125 5250 6125
+Text Notes 12700 7950 0    50   ~ 0
+DD1
+Text Notes 13175 7950 0    50   ~ 0
+DD2
+Text Notes 13700 7950 0    50   ~ 0
+G1
+Wire Wire Line
+	8375 5000 8375 5125
+$Comp
+L elements_2020:Транзистор_2Т3130А9 VT5
+U 1 1 60DD8887
+P 9600 6125
+F 0 "VT5" H 9775 6375 39  0000 L CNN
+F 1 "Транзистор_2Т3130А9" H 9900 5600 39  0001 C CNN
+F 2 "N_VD_HL:Корпус_КТ-46" H 9925 5525 39  0001 C CNN
+F 3 "" H 9600 6125 39  0001 C CNN
+F 4 "аА0.339.569ТУ" H 9925 5450 39  0001 C CNN "TY"
+	1    9600 6125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L elements_2020:Транзистор_2Т3129Г9 VT6
+U 1 1 60DD8892
+P 9600 6875
+F 0 "VT6" H 9775 6625 39  0000 L CNN
+F 1 "Транзистор_2Т3129Г9" H 9900 6350 39  0001 C CNN
+F 2 "N_VD_HL:Корпус_КТ-46" H 9925 6275 39  0001 C CNN
+F 3 "" H 9600 6875 39  0001 C CNN
+F 4 "аА0.339.569ТУ" H 9925 6200 39  0001 C CNN "TY"
+	1    9600 6875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 6500 9250 6575
+Wire Wire Line
+	9250 6425 9250 6500
+Connection ~ 9250 6500
+Text Label 9000 7375 0    50   ~ 0
+GND
+Wire Wire Line
+	9250 7175 9250 7375
+Text Label 9000 5625 0    50   ~ 0
+5V
+Wire Wire Line
+	9250 5625 9250 5825
+Wire Wire Line
+	9250 5625 8875 5625
+Wire Wire Line
+	9250 7375 8875 7375
+$Comp
+L OEP-1-rescue:Резистор_0,125Вт-elements R16
+U 1 1 60DD88BA
+P 10075 6125
+F 0 "R16" H 10025 6000 60  0000 L CNN
+F 1 "Резистор_0,125Вт" H 10075 5975 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_IEC_0805_0,125_Вт" H 10075 6125 60  0001 C CNN
+F 3 "" H 10075 6125 60  0001 C CNN
+F 4 "4,7 кОм" H 9925 6275 50  0000 L CNN "Номинал"
+F 5 "R101" H 10075 6125 50  0001 C CNN "УГО"
+	1    10075 6125
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8875 5875 8875 5625
+Wire Wire Line
+	8875 6025 8875 7375
+Wire Wire Line
+	7375 5725 7375 6500
+Wire Wire Line
+	8375 5725 8375 6500
+Wire Wire Line
+	5250 5050 5250 6125
+Wire Wire Line
+	10375 6125 10500 6125
+Wire Wire Line
+	10500 6125 10500 5050
+Wire Wire Line
+	5975 6125 6000 6125
+Wire Wire Line
+	6500 6500 7375 6500
+Wire Wire Line
+	8375 6500 9250 6500
+Wire Wire Line
+	9775 6125 9750 6125
+Wire Wire Line
+	9750 6125 9750 6875
+Wire Wire Line
+	9750 6875 9600 6875
+Connection ~ 9750 6125
+Wire Wire Line
+	9750 6125 9600 6125
+Wire Wire Line
+	6000 6125 6000 6875
+Wire Wire Line
+	6000 6875 6150 6875
+Connection ~ 6000 6125
+Wire Wire Line
+	6000 6125 6150 6125
 $EndSCHEMATC
