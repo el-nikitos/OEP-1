@@ -1,4 +1,4 @@
-update=06.06.2021 23:24:14
+update=четверг, 24 июня 2021 г., 10:38:47
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=PDF/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -250,7 +260,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=PWR
 Clearance=0.4
-TrackWidth=1
+TrackWidth=0.8
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -258,13 +268,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=PDF/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
